@@ -1,31 +1,36 @@
-## Overview
+## 概要
 
 <img src="https://i.imgur.com/Rg79DD6.png" width="20%" />
-Discord-Chrome-Presence allows you to set your Discord Rich Presence to whatever you're looking at it in Chrome. An additional Chrome extension is included in order to rely site information.
+Discord Chrome Presence を使用すると、Discord RPの表示をChromeで見ているものに設定できます。
+サイトの情報に依存するため、Chrome拡張機能が含まれます。
 
-## Requirements
+## インストール及び実行に必要な条件
 
+* [Discord クライアント](https://discordapp.com/)
 * [Git](https://git-scm.com/)
 * [Node](https://nodejs.org/en/)
-* [Google Chrome](http://google.com/chrome) or [Chromium](https://www.chromium.org/getting-involved/download-chromium)
+* [Google Chrome](http://google.com/chrome) または [Chromium](https://www.chromium.org/getting-involved/download-chromium)
 
-## Installation
+## インストール
 
+コマンドは次のとおりです。
 ```
-git clone https://github.com/jczstudios/discord-chrome-presence
+git clone https://github.com/ryuuta0217/discord-chrome-presence.git
 cd discord-chrome-presence
 npm install
 npm start
 ```
-Then, install the Chrome extension from the extension directly. (Visit chrome://extensions, enable "Developer Mode", "Load Unpacked", choose the "extension" directory inside this repository you cloned.
+次に、Chromeの拡張機能のページから拡張機能をインストールします。
+**chrome://extensions** を開き、**デベロッパーモードを有効に**した上で、**パッケージ化されていない拡張機能を読み込む**から
+クローンされたフォルダーにある **extension フォルダーを指定してください。**
 
-## Usage
-Install the Google Chrome extension, included in the extension directory. Then, start the server using
+## 使い方
+extension ディレクトリのChrome拡張機能のインストールが完了したら、次のコマンドを使用してDiscord RPを表示するためのサーバーを起動します。
 ```
 npm start
 ```
-Discord will need to be open and the Chrome extension needs to be added (see Installation).
+Discordを開いてChrome拡張機能をインストールする必要があります(インストール の項を参照)
 
-## License
+## ライセンス
 
 [Unlicense](http://unlicense.org/)

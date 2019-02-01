@@ -1,7 +1,7 @@
 {
   "name": "discord-chrome-presence",
-  "version": "2.0.0",
-  "description": "Uses your browser for your Discord presence",
+  "version": "2.0.1",
+  "description": "Discord RPに閲覧中のサイトを表示する",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,13 +16,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jczstudios/discord-chrome-presence.git"
+    "url": "git+https://github.com/ryuuta0217/discord-chrome-presence.git"
   },
   "keywords": [
     "discord"
   ],
   "bugs": {
-    "url": "https://github.com/jczstudios/discord-chrome-presence/issues"
+    "url": "https://github.com/ryuuta0217/discord-chrome-presence/issues"
   },
-  "homepage": "https://github.com/jczstudios/discord-chrome-presence#readme"
+  "homepage": "https://github.com/ryuuta0217/discord-chrome-presence#readme"
 }

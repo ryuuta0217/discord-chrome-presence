@@ -9,6 +9,7 @@ client.once('ready', ()=>{
 	app.use(express.json());
 	app.post("/", (request, response) => {
 		let body = request.body;
+		console.log(body);
 		if (body.action == "set") {
 			let presence = {
 				state: body.state.substring(0, 128),
@@ -23,5 +24,5 @@ client.once('ready', ()=>{
 		}
 		response.sendStatus(200);
 	});
-	app.listen(3000, () => console.log('Discord-Chrome-Presence is ready!'));
+	app.listen(3000, () => console.log('Discord-Chrome-Presence起動完了'));
 });
