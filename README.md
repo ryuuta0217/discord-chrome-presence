@@ -1,14 +1,14 @@
 ## 概要
 
 <img src="https://i.imgur.com/Rg79DD6.png" width="20%" />
-Discord Chrome Presence を使用すると、Discord RPの表示をChromeで見ているものに設定できます。
-サイトの情報に依存するため、Chrome拡張機能が含まれます。
+Discord Chrome Presence を使用すると、Discord RPの表示をChromeで見ているものに設定できます。<br>
+サイトの情報に依存するため、Chrome拡張機能が含まれています。
 
 ## インストール及び実行に必要な条件
 
-* [Discord クライアント](https://discordapp.com/)
+* [Discordクライアント](https://discordapp.com/)
 * [Git](https://git-scm.com/)
-* [Node](https://nodejs.org/en/)
+* [Node](https://nodejs.org/ja/)
 * [Google Chrome](http://google.com/chrome) または [Chromium](https://www.chromium.org/getting-involved/download-chromium)
 
 ## インストール
@@ -20,7 +20,7 @@ cd discord-chrome-presence
 npm install
 npm start
 ```
-次に、Chromeの拡張機能のページから拡張機能をインストールします。
+次に、Chromeの拡張機能のページから拡張機能をインストールします。<br>
 **chrome://extensions** を開き、**デベロッパーモードを有効に**した上で、**パッケージ化されていない拡張機能を読み込む**から
 クローンされたフォルダーにある **extension フォルダーを指定してください。**
 
