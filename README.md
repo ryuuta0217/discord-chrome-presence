@@ -1,6 +1,6 @@
 ## 概要
 
-<img src="https://i.imgur.com/Rg79DD6.png" width="20%" />
+<img src="https://i.imgur.com/uZGoJUC.png" width="20%" />
 Discord Chrome Presence を使用すると、Discord RPの表示をChromeで見ているものに設定できます。<br>
 サイトの情報に依存するため、Chrome拡張機能が含まれています。
 
